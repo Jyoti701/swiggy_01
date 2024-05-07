@@ -1,0 +1,45 @@
+.card_img {
+  width: 100%;
+  height: 100%;
+  object-fit: inherit;
+}
+.img_container {
+  height: 300px;
+}
+.info_container {
+  min-height: 140px;
+  padding: 10px 0px 0px 10px;
+}
+.card_container {
+  width: 270px;
+  background-color: rgb(230 232 232);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  box-shadow: 2px 3px 2px #e5e2e2;
+  padding: 0px 0px 20px 0px;
+  margin: 20px 0px;
+}
+.body_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: auto; */
+  margin: 2%;
+  gap: 2.5%;
+}
+.info_rating_container {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 18%;
+}
+.cuisines{
+  text-wrap: wrap;
+  overflow-x: clip;
+}  
+.img_container{
+height:320px
+} 
